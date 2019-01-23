@@ -7,7 +7,7 @@ def prime?(int)
   else
     array_int = (2..int -1).to_a
     array_int.all? do |num|
-     int%num > 0
+     int % num > 0
   end
     
   end
